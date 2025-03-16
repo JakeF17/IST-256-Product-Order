@@ -1,5 +1,9 @@
 # IST-256-Product-Order-Assignment
-Jacob Fought
+
+Jacob Fought 
+
 03/16/25
-link:
+
+Github pages URL:
+
 Screenshot: 
