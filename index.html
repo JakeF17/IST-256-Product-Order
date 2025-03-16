@@ -4,89 +4,96 @@
   <meta charset="UTF-8">
   <title>JFashion</title>
   <link rel="stylesheet" href="product.form.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
 <h1><b>JFashion</b></h1>
-<div class="Hoodie">
-  <h2>Hoodie</h2>
-  <label><b>Size:</b>
-    <select name="Size">
-      <option value=""></option>
-      <option value="XS">XS</option>
-      <option value="S">S</option>
-      <option value="M">M</option>
-      <option value="L">L</option>
-      <option value="XL">XL</option>
-    </select>
-  </label>
-  <br>
-  <label><b>Color:</b><br>
-    <input type="radio" name="Color" value="Black">Black<br>
-    <input type="radio" name="Color" value="White">White<br>
-    <input type="radio" name="Color" value="Tan">Tan<br>
-    <input type="radio" name="Color" value="Blue">Blue<br>
-    <input type="radio" name="Color" value="Green">Green<br>
-  </label>
-  <br>
-  <label><b>Verse:</b>
-    Verse Name<input type="text" name="name" value=""/>
-    Verse Text<input type="text" name="name" value=""/>
-  </label>
-</div>
-<div class="Pants">
-  <h3>Pants</h3>
-  <label><b>Material:</b><br>
-    <input type="radio" name="material" value="">Denim<br>
-    <input type="radio" name="material" value="">Cotton<br>
-    <input type="radio" name="material" value="">Twill<br>
-    <input type="radio" name="material" value="">Polyester Blend<br>
-  </label>
-  <label><b>Design:</b><br>
-    <input type="checkbox" name="design" value="">Cross<br>
-    <input type="checkbox" name="design" value="">Verse Text<br>
-    <input type="checkbox" name="design" value="">Roman Numerals<br>
-  </label>
-  <label><b>Inseam Length:</b>
-    <select name="Inseam Length">
-      <option value=""></option>
-      <option value="XS">28</option>
-      <option value="30">30</option>
-      <option value="32">32</option>
-      <option value="34">34</option>
-      <option value="36">36</option>
-    </select>
-  </label><br>
-  <label><b>Waist:</b>
-    <select name="Waist">
-      <option value=""></option>
-      <option value="XS">28</option>
-      <option value="30">30</option>
-      <option value="32">32</option>
-      <option value="34">34</option>
-      <option value="36">36</option>
-    </select>
-  </label>
-</div>
-<div class="Subscription">
-  <h4>Subscribe</h4><br>
-  <label><b>Name:</b>
-    <input type ="text" name="name" value=""/>
-  </label><br>
-  <label><b>Email:</b>
-    <input type ="text" name="name" value=""/>
-  </label><br>
-  <label><b>Create Password:</b>
-    <input type ="password" name="password" value=""/>
-  </label><br>
-  <label><b>Comments:</b>
-    <input type ="text" name="name" value=""/>
-  </label><br>
-  <input type="submit" value="submit">
-</div>
 <p>Here at JFashion, we strive to make stylish and practical clothing for the younger generations who are passionate about their faith.</p>
-<div class="hoodief"><img src="hoodief.jpeg" height="400" width="400"/></div>
-<div class="Hoodieb"><img src="hoodieb.jpeg" height="400" width="400"/></div>
-<div class="pantsf"><img src="pantsf.jpeg" height="400" width="200"/></div>
+<div class ="container">
+  <div class="row">
+    <div class = "col">
+        <h2>Hoodie</h2>
+        <label><b>Size:</b>
+          <select name="Size">
+            <option value=""></option>
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+          </select>
+        </label>
+        <br>
+        <label><b>Color:</b><br>
+          <input type="radio" name="Color" value="Black">Black<br>
+          <input type="radio" name="Color" value="White">White<br>
+          <input type="radio" name="Color" value="Tan">Tan<br>
+          <input type="radio" name="Color" value="Blue">Blue<br>
+          <input type="radio" name="Color" value="Green">Green<br>
+        </label>
+        <br>
+        <label><b>Verse:</b>
+          Verse Name<input type="text" name="name" value=""/><br>
+          Verse Text<input type="text" name="name" value=""/>
+        </label>
+      <img src="hoodief.jpeg" height="400" width="400"/>
+      </div>
+    <div class="col">
+        <h3>Pants</h3>
+        <label><b>Material:</b><br>
+          <input type="radio" name="material" value="">Denim<br>
+          <input type="radio" name="material" value="">Cotton<br>
+          <input type="radio" name="material" value="">Twill<br>
+          <input type="radio" name="material" value="">Polyester Blend<br>
+        </label>
+        <label><b>Design:</b><br>
+          <input type="checkbox" name="design" value="">Cross<br>
+          <input type="checkbox" name="design" value="">Verse Text<br>
+          <input type="checkbox" name="design" value="">Roman Numerals<br>
+        </label>
+        <label><b>Inseam Length:</b>
+          <select name="Inseam Length">
+            <option value=""></option>
+            <option value="XS">28</option>
+            <option value="30">30</option>
+            <option value="32">32</option>
+            <option value="34">34</option>
+            <option value="36">36</option>
+          </select>
+        </label><br>
+        <label><b>Waist:</b>
+          <select name="Waist">
+            <option value=""></option>
+            <option value="XS">28</option>
+            <option value="30">30</option>
+            <option value="32">32</option>
+            <option value="34">34</option>
+            <option value="36">36</option>
+          </select>
+        </label>
+      <img src="hoodieb.jpeg" height="400" width="400"/>
+      </div>
+    <div class="col">
+        <h4>Subscribe</h4><br>
+        <form action="" method="post">
+          <label><b>Name:</b>
+            <input type ="text" name="name" value=""/>
+          </label><br>
+          <label><b>Email:</b>
+            <input type ="text" name="name" value=""/>
+          </label><br>
+          <label><b>Create Password:</b>
+            <input type ="password" name="password" value=""/>
+          </label><br>
+          <label><b>Comments:</b>
+            <input type ="text" name="name" value=""/>
+          </label><br>
+          <input type="submit" value="submit">
+        </form>
+      <img src="pantsf.jpeg" height="400" width="200"/>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
 
