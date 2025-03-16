@@ -6,4 +6,4 @@ Jacob Fought
 
 Github pages URL: https://jakef17.github.io/IST-256-Product-Order/
 
-Screenshot:![JFashion.png](...)![JFashion.png](...)
+Screenshot:![JFashion.png](JFashion.png)
